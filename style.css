@@ -1,14 +1,18 @@
+
 :root {
-    --Green: hsl(75, 94%, 57%);
     --White: hsl(0, 0%, 100%);
 
-    --Grey700: hsl(0, 0%, 20%);
-    --Grey800: hsl(0, 0%, 12%);
-    --Grey900: hsl(0, 0%, 8%);
+--Stone-100: hsl(30, 54%, 90%);
+--Stone-150: hsl(30, 18%, 87%);
+--Stone-600: hsl(30, 10%, 34%);
+--Stone-900: hsl(24, 5%, 18%);
 
-    --fs-main: 32px;
-    --fs-praimary: 16px;
-    --fs-seconary: 24px;
+--Brown-800: hsl(14, 45%, 36%);
+
+--Rose-800: hsl(332, 51%, 32%);
+--Rose-50: hsl(330, 100%, 98%);
+
+
 
 }
 
@@ -18,10 +22,10 @@
 }
 
 body {
-    font-family: "Inter";
+    font-family: 'Outfit';
     margin: 0;
-    background-color: var(--Grey900);
-    color: var(--White);
+    background-color: var(--Stone-100);
+    color: var(--Stone-900);
 }
 
 p,
