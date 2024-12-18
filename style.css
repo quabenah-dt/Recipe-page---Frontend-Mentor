@@ -63,7 +63,7 @@ p {
 .main {
    display: flex;
     width: 736px;
-    height: 1710.41px;
+    /* height: 1710.41px; */
     flex-direction: column;
     margin: 0 auto;
     background-color: var(--White);
@@ -145,7 +145,8 @@ p {
 
 .line-break hr {
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    color: var(--Stone-150);
 }
 
 .recipe-instructions h2 {
@@ -166,4 +167,60 @@ p {
     margin:  0 0 6px;
     font-size: var(--fs-sm);
     padding: 0px 0px 0px 18px;
+}
+
+.recipe-nutrition h2 {
+    font-family: 'Young Serif';
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    color: var(--Brown-800);
+    margin-bottom: 24px;
+}
+
+.recipe-nutrition p {
+    font-size: var(--fs-sm);
+}
+
+.recipe-nutrition table th {
+    font-size: var(--fs-sm);
+    font-weight: 400;
+}
+
+.recipe-nutrition table td {
+    color: var(--Brown-800);
+    font-size: var(--fs-sm);
+    font-weight: 700;
+}
+
+
+table {
+    margin-top: 12px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th{
+    padding: 12px 1px 11px 32px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    padding: 11px 1px 11px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+table tr:last-child th {
+    border-bottom: none;
+}
+
+
+th {
+    font-weight: bold;
 }
