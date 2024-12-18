@@ -1,3 +1,4 @@
+/* @import url(/assets/fonts/fonts.css); */
 
 :root {
     --White: hsl(0, 0%, 100%);
@@ -47,4 +48,76 @@ img {
 
 p {
     margin: 0;
+}
+
+
+.header {
+    max-width: 1440px;
+    padding-top: 123px;
+    padding-bottom: 123px;
+    margin: 0 auto;
+    /* background-color: red; */
+    line-height: 1.5;
+}
+
+.main {
+   display: flex;
+    width: 736px;
+    height: 1710.41px;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: var(--White);
+    padding: 40px;
+    border-radius: 24px;
+    padding-top: 50px;
+}
+
+.recipe-intro  img {
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.recipe-intro h2 {
+    font-family:'Young Serif';
+    font-size: var(--fs-xl);
+    font-weight: 400;
+    margin-bottom: 24px;
+    color: var(--Brown-800);
+}
+
+.recipe-intro p {
+    font-size: var(fs-sm);
+}
+
+
+.recipe-preparation-time  {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 656px;
+    height: 180px;
+    background-color: var(--Stone-100);
+    border-radius: 12px;
+    padding: 28px;
+}
+
+.recipe-preparation-time h4 {
+    font-size: var(--fs-md);
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--Rose-800);
+}
+
+.recipe-preparation-time ul {
+    padding: 0px 0px 0px 21px;
+}
+
+.recipe-preparation-time li {
+    margin:  0 0 6px;
+    font-size: var(--fs-sm);
+    padding: 0px 0px 0px 18px;
+}
+
+.recipe-preparation-time li span {
+    font-weight: 700;
+    font-size: var(--fs-sm);
 }
