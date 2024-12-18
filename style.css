@@ -82,7 +82,7 @@ p {
     font-size: var(--fs-xl);
     font-weight: 400;
     margin-bottom: 24px;
-    color: var(--Brown-800);
+    /* color: var(--Brown-800); */
 }
 
 .recipe-intro p {
@@ -95,7 +95,7 @@ p {
     margin-bottom: 40px;
     width: 656px;
     height: 180px;
-    background-color: var(--Stone-100);
+    background-color: var(--Rose-50);
     border-radius: 12px;
     padding: 28px;
 }
@@ -117,7 +117,53 @@ p {
     padding: 0px 0px 0px 18px;
 }
 
-.recipe-preparation-time li span {
+ span {
     font-weight: 700;
     font-size: var(--fs-sm);
+}
+
+
+.recipe-ingridients h2{
+    font-family: 'Young Serif';
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    color: var(--Brown-800);
+    margin-bottom: 16px;
+}
+
+.recipe-ingridients ul {
+    margin:  0 0 6px;
+    font-size: var(--fs-sm);
+    padding: 0px 0px 0px 18px;
+}
+
+.recipe-ingridients li {
+    margin:  0 0 6px;
+    font-size: var(--fs-sm);
+    padding: 0px 0px 0px 18px;
+}
+
+.line-break hr {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.recipe-instructions h2 {
+    font-family: 'Young Serif';
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    color: var(--Brown-800);
+    margin-bottom: 24px;
+}
+
+.recipe-instructions ol {
+    margin:  0 0 6px;
+    font-size: var(--fs-sm);
+    padding: 0px 0px 0px 18px;
+}
+
+.recipe-instructions li {
+    margin:  0 0 6px;
+    font-size: var(--fs-sm);
+    padding: 0px 0px 0px 18px;
 }
